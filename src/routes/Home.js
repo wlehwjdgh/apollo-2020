@@ -5,12 +5,12 @@ import styled from "styled-components";
 import Movie from "../components/Movie";
 
 const GET_MOVIES = gql`
-    {
-        movies(limit: 15, rating: 3) {
-            id
-            medium_cover_image
-        }
+{
+    movies(limit: 15, rating: 3) {
+        id
+        medium_cover_image
     }
+}
 `;
 const Container = styled.div`
   display: flex;
